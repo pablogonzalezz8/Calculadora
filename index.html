@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+  <div class="instruccion">
+    <h4>Instrucciones</h4>
+    <br>
+    <p>Elegir primero los dos números sobre los cuales va a recaer la operación y posteriomente elegir la operación, para cambiar de pantalla presionar la tecla enter.</p>
+</div>
+    <div class="Calculadora">
+
+        
+    <input type="text" class="pantalla" maxlength="21" id="pantallita" value=" ">
+    <input type="text" class="pantalla" maxlength="21" id="segundapantalla" value=" ">
+
+
+    <button class="tecla verde" id="igual">ENTER    </button>
+    <button class="tecla amarillo" id= "borrar">C</button>
+
+    <input id="numero1"  type="button" value="1" class="tecla">
+    <input id="numero2"  type="button" value="2" class="tecla">
+    <input id="numero3"  type="button" value="3" class="tecla">
+    <input id="numero4"  type="button" value="4" class="tecla">
+    <input id="numero5"  type="button" value="5" class="tecla">
+    <input id="numero6"  type="button" value="6" class="tecla">
+    <input id="numero7"  type="button" value="7" class="tecla"> 
+    <input id="numero8"  type="button" value="8" class="tecla">
+    <input id="numero9"  type="button" value="9" class="tecla">
+    <input id="numero0"  type="button" value="0" class="tecla">
+    <button class="tecla amarillo" id="sumar" value="+">+</button>
+    <button class="tecla amarillo" id="restar">-</button>
+    <button class="tecla amarillo" id="multiplicacion">*</button>
+    <button class="tecla amarillo" id="division">/</button>
+    
+    
+    
+
+   
+    </div>
+
+     <div class="teclado">
+        <input type="text" name="" class="digitar" id="digito">
+        <button class="digitar" id="mayuscula">MAYUSCULA</button>
+        <button class="digitar" id="minuscula">Minuscula</button>
+        <button class="digitar" id="cantidad">Cantidad de Caracteres</button>
+
+
+
+     </div>
+    <script src="./calculadora.js"></script>
+    <script src="./teclado.js"></script>
+</body>
+</html>
